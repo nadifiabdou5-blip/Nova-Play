@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Play - معرض الألعاب</title>
+    <style>
+        :root { --main-color: #00d4ff; --bg-color: #0f172a; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-color); color: white; margin: 0; padding: 0; }
+        header { background: linear-gradient(to right, #1e293b, #334155); padding: 40px 20px; text-align: center; border-bottom: 3px solid var(--main-color); }
+        h1 { margin: 0; font-size: 2.5em; color: var(--main-color); }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 40px; gap: 30px; }
+        .game-card { background: #1e293b; border-radius: 15px; width: 300px; overflow: hidden; transition: transform 0.3s; border: 1px solid #334155; }
+        .game-card:hover { transform: translateY(-10px); border-color: var(--main-color); }
+        .game-info { padding: 20px; text-align: center; }
+        .btn { background-color: var(--main-color); color: #000; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; font-weight: bold; cursor: pointer; display: inline-block; margin-top: 10px; }
+        footer { text-align: center; padding: 20px; color: #64748b; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحباً بكم في Nova Play</h1>
+    <p>بوابة مطور الألعاب - استكشف مشاريعي</p>
+</header>
+
+<div class="container">
+    <!-- اللعبة الأولى: Parkour Gamesss -->
+    <div class="game-card">
+        <div class="game-info">
+            <h3>Parkour Gamesss</h3>
+            <p>لعبة باركور ممتعة ثنائية الأبعاد (2D Platformer) منشورة على Itch.io.</p>
+            <a href="https://itch.io" class="btn">العب الآن</a>
+        </div>
+    </div>
+
+    <!-- اللعبة الثانية: Zombie Game -->
+    <div class="game-card">
+        <div class="game-info">
+            <h3>Zombiegame Android</h3>
+            <p>مشروع لعبة زومبي تعمل على هواتف الأندرويد، مبرمجة بمهارة.</p>
+            <a href="#" class="btn">قريباً..</a>
+        </div>
+    </div>
+
+    <!-- يمكنك إضافة المزيد من البطاقات هنا لألعابك القادمة -->
+</div>
+
+<footer>
+    تم التطوير بواسطة مبرمج Nova Play &copy; 2026
+</footer>
+
+</body>
+</html>
